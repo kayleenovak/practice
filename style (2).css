@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+  color: #391712;
+  font-family: 'Bitter', serif;
+}
+
+section {
+  display: flex;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+input:focus {
+  outline: none;
+}
+
+label {
+  width: 25%;
+  display: inline-block;
+  text-align: left;
+}
+
+form {
+  background: #FFE4C7;
+  border-bottom: 5px solid #FFB669;
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+input {
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  font-family: 'Bitter', serif;
+  font-size: 20px;
+  color: #616161;
+  border: none;
+}
+
+.grocery-list-form {
+  width: 500px;
+  margin: 0 20px;
+  padding: 30px;
+  flex: 1;
+}
+
+.grocery-list-form--submit {
+  border: none;
+  color: white;
+  margin-top: 10px;
+  background: #712E24;
+  transition-duration: .3s;
+}
+
+.grocery-list-form--submit:hover {
+  background: #aaa;
+  cursor: pointer;
+  background: #E35C48;
+}
+
+.grocery-list {
+  background: #FFE4C7;
+  border-bottom: 5px solid #FFB669;
+  min-height: 200px;
+  flex: 1;
+  margin: 0 20px;
+  padding-top: 10px;
+}
+
+.grocery-list li {
+  list-style: none;
+  padding: 10px;
+  margin-left: -25px;
+}

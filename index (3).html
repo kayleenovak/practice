@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Grocery List</title>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Shopping List</h1>
+
+    <section>
+      <form class="grocery-list-form">
+        <fieldset>
+          <label for="grocery-list-form--item">Item</label>
+          <input type="text" class="grocery-list-form--item">
+        </fieldset>
+
+        <fieldset>
+          <label for="grocery-list-form--quantity">Quantity</label>
+          <input type="text" class="grocery-list-form--quantity">
+        </fieldset>
+
+        <input type="submit" class="grocery-list-form--submit">
+      </form>
+
+      <ul class="grocery-list"></ul>
+    </section>
+    <script src="dependencies/jquery.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
